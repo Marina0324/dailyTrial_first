@@ -1,0 +1,42 @@
+h2 {
+    color: red;
+    font-size: 30px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    padding: 18px 12px 8px 12px;
+    
+}
+img:hover{
+    opacity: 0.7;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+}
+
+.yellow-font {
+    color: yellow;
+    font-size: 20px;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.contents p {
+    font-size: 18px;
+}
+
+/* 誤：「.contents p」指定では全てのpタグの色が変わってしまう 
+.contents p {
+color: red;
+}*/
+
+/* 正：「>」で繋げることで直属の子孫要素のみを指定できます */
+.contents > p {
+color: red;
+}

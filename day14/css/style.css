@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.container {
+    color: #082b48;
+}
+
+.navbar img {
+    width: 40%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.carousel-caption {
+    color: #082b48;
+}
+
+.course {
+    background-color: #e3fcf4;
+}
+
+.card-body {
+    background-color: #e3fcf4;
+}
+
+footer {
+    background-color: #082b48;
+}
